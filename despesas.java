@@ -11,10 +11,8 @@ public class despesas {
         System.out.println("valor conta de luz?");
         double luz = sc.nextDouble();
 
-
         System.out.println("valor conta de agua?");
         double agua = sc.nextDouble();
-
 
         System.out.println("valor conta de internet?");
         double internet = sc.nextDouble();
