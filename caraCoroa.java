@@ -1,7 +1,7 @@
 import java.util.Scanner;
 import java.util.Random;
 
-public class eventos {
+public class caraCoroa {
     public static void main(String [] args) {
         Random random = new Random();
         Scanner sc = new Scanner(System.in);
