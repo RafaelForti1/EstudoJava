@@ -1,0 +1,23 @@
+package teste;
+
+import java.util.Scanner;
+
+public class LacoDaVida {
+
+	public static void main(String[] args) {
+		int nrtabu;
+
+		Scanner sc = new Scanner(System.in);
+		System.out.println("Escolha um numero para saber a tabuada: ( a tabuada é exibida até o 10 ) ");
+		nrtabu = sc.nextInt();
+
+		int multiplicador = 0;
+		while (multiplicador <= 10) {
+			int resultado = nrtabu * multiplicador;
+			System.out.println(resultado);
+			multiplicador++;
+		}
+
+	}
+
+}
