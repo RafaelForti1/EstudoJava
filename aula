@@ -1,0 +1,19 @@
+package teste;
+
+public class aula {
+
+	public static void main(String[] args) {
+		System.out.println(12);
+		System.out.println("oi");
+		System.out.print(90);
+		System.out.print( "Hola, como estas");
+		System.out.println(" tchau");
+		//Joao é o "cara"
+		System.out.println("joao é o \"cara\"");
+		//Nunca usar "\"
+		System.out.println("nunca usar \"\\\"");
+		System.out.println("\tMaria\nAna");
+
+	}
+
+}
